@@ -1,0 +1,29 @@
+.board-list {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding: 20px;
+    gap: 20px;
+  }
+  
+  .board-list::-webkit-scrollbar {
+    height: 6px;
+  }
+  
+  .board-list::-webkit-scrollbar-track {
+    background: #cfcaca;
+  }
+  
+  .board-list::-webkit-scrollbar-thumb {
+    background: #03030357;
+    border-radius: 4px;
+  }
+  
+  .add-column {
+    min-width: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+  }
+  
